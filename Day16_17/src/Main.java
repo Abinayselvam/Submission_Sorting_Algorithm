@@ -49,5 +49,8 @@ public class Main {
         int[] salaries={20000,34000,56000,23000,90000};
         HeapSort.heapSort(salaries);
         System.out.println(Arrays.toString(salaries));
+        int[] ages = {17,14,25,20,43,35,26,13};
+        CountingSort.countSort(ages);
+        System.out.println(Arrays.toString(ages));
     }
 }
