@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args)
     {
@@ -35,5 +36,12 @@ public class Main {
         };
         MergeSort.mergeSort(book,0,book.length-1);
         System.out.println(Arrays.toString(book));
+
+        int[] productPrices = {450, 1200, 300, 750, 150, 900};
+
+        System.out.println("Before Sorting:");
+
+        QuickSort.quickSort(productPrices, 0, productPrices.length - 1);
+        System.out.println(Arrays.toString(productPrices));
     }
 }
