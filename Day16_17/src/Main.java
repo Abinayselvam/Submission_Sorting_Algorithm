@@ -11,8 +11,5 @@ public class Main {
 
         QuickSort.quickSort(productPrices, 0, productPrices.length - 1);
         System.out.println(Arrays.toString(productPrices));
-
-
-
     }
 }
